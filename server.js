@@ -13,7 +13,7 @@ app.use(express.json());
 // ✅ Secure CORS Configuration (Allow only Vercel frontend)
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "https://expense-tracker-frontend-cfl729qrv.vercel.app", // Allow only your frontend
+    origin: process.env.FRONTEND_URL || "https://expense-tracker-frontend-cfl729qrv.vercel.app/", // Allow only your frontend
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true, // Allow cookies & authentication headers
