@@ -9,7 +9,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
@@ -19,5 +18,15 @@
     "mongoose": "^8.10.1",
     "node-cron": "^3.0.3",
     "nodemon": "^3.1.9"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RKG01/Expense-tracker-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RKG01/Expense-tracker-backend/issues"
+  },
+  "homepage": "https://github.com/RKG01/Expense-tracker-backend#readme",
+  "description": ""
 }
