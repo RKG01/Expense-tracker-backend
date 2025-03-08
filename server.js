@@ -17,7 +17,9 @@ mongoose
   .connect(process.env.MONGO_URI) // Use just MONGO_URI
   .then(() => console.log("✅ MongoDB Connected"))
   .catch((err) => console.error("❌ MongoDB Connection Error:", err));
-
+app.get("/", (req, res) => {
+  res.send("Hello World");
+});
 app.use("/api/auth", authRoutes);
 app.use("/api/expenses", expenseRoutes);
 app.use("/api/income", incometrack);
